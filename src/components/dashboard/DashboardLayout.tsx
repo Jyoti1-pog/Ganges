@@ -17,6 +17,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Sidebar } from './Sidebar';
 
 interface DashboardLayoutProps {
     children: React.ReactNode;
@@ -59,90 +60,12 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
 
     return (
         <div className="min-h-screen bg-gray-50 flex">
-            {/* Mobile Sidebar Overlay */}
-            {isSidebarOpen && (
-                <div
-                    className="fixed inset-0 bg-black/50 z-40 lg:hidden"
-                    onClick={() => setIsSidebarOpen(false)}
-                    aria-hidden="true"
-                />
-            )}
-
-            {/* Sidebar */}
-            <aside className={cn(
-                "fixed inset-y-0 left-0 w-64 bg-white border-r z-50 transition-transform lg:translate-x-0 lg:static lg:block",
-                isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-            )}>
-                <div className="h-full flex flex-col">
-                    {/* Logo */}
-                    <div className="p-6 border-b flex items-center justify-between">
-                        <Link to="/" className="flex items-center gap-2" onClick={() => setIsSidebarOpen(false)}>
-                            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold">G</span>
-                            </div>
-                            <span className="text-xl font-bold">Ganges</span>
-                        </Link>
-                        <button
-                            type="button"
-                            className="lg:hidden p-2 rounded-md hover:bg-gray-100 relative z-[60] cursor-pointer"
-                            onClick={(e) => {
-                                e.stopPropagation();
-                                setIsSidebarOpen(false);
-                            }}
-                            aria-label="Close sidebar"
-                        >
-                            <X className="w-6 h-6" />
-                        </button>
-                    </div>
-
-                    {/* User Profile Hook */}
-                    <div className="p-4 border-b">
-                        <div className="flex items-center gap-3 p-2 bg-blue-50 rounded-xl">
-                            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                                <UserIcon className="w-6 h-6 text-blue-600" />
-                            </div>
-                            <div className="flex-1 overflow-hidden">
-                                <p className="text-sm font-medium truncate">{user?.email}</p>
-                                <p className="text-xs text-blue-600 font-semibold">GANGES-ID: {user?.id.substring(0, 8).toUpperCase()}</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Nav Links */}
-                    <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
-                        {menuItems.map((item) => {
-                            const isActive = location.pathname === item.path;
-                            return (
-                                <Link
-                                    key={item.path}
-                                    to={item.path}
-                                    className={cn(
-                                        "flex items-center gap-3 px-4 py-3 rounded-xl transition-all",
-                                        isActive
-                                            ? "bg-blue-600 text-white shadow-md shadow-blue-200"
-                                            : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
-                                    )}
-                                >
-                                    <item.icon className="w-5 h-5" />
-                                    <span className="font-medium text-sm">{item.title}</span>
-                                </Link>
-                            );
-                        })}
-                    </nav>
-
-                    {/* Logout */}
-                    <div className="p-4 border-t">
-                        <button
-                            type="button"
-                            onClick={handleLogout}
-                            className="flex items-center gap-3 w-full px-4 py-3 text-red-600 hover:bg-red-50 rounded-xl transition-colors"
-                        >
-                            <LogOut className="w-5 h-5" />
-                            <span className="font-medium text-sm">Sign Out</span>
-                        </button>
-                    </div>
-                </div>
-            </aside>
+            {/* Sidebar Component - Extracted for cleaner state mgmt */}
+            <Sidebar
+                open={isSidebarOpen}
+                onClose={() => setIsSidebarOpen(false)}
+                onLogout={handleLogout}
+            />
 
             {/* Main Content Area */}
             <div className="flex-1 flex flex-col h-screen overflow-hidden">
