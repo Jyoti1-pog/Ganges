@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Session, User } from '@supabase/supabase-js';
 import { supabase } from '../lib/supabaseClient';
 
@@ -16,7 +16,7 @@ interface AuthContextType {
     profile: UserProfile | null;
     loading: boolean;
     signOut: () => Promise<void>;
-    refreshSession: () => Promise<void>;
+    refreshSession: () => Promise<Session | null | undefined>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -26,7 +26,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const [user, setUser] = useState<User | null>(null);
     const [profile, setProfile] = useState<UserProfile | null>(null);
     const [loading, setLoading] = useState(true);
-    const initialized = useRef(false);
 
     // Helper to fetch profile
     const fetchProfile = async (userId: string) => {
@@ -48,68 +47,57 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     useEffect(() => {
-        if (initialized.current) return;
-        initialized.current = true;
         let mounted = true;
 
-        // 1. Strict Resolution Timeout (6 seconds)
+        // Safety fallback: Force loading to false after 3s to prevent infinite spinner
         const timeoutId = setTimeout(() => {
-            if (loading && mounted) {
-                console.warn('⚠️ Auth: Resolution timed out - forcing loading=false');
+            if (mounted && loading) {
+                console.warn('⚠️ Auth: Safety timeout triggered');
                 setLoading(false);
             }
-        }, 6000);
+        }, 3000);
 
-        async function initializeAuth() {
-            try {
-                console.log('🔄 Auth: Resolving session...');
-                const { data: { session: initialSession }, error } = await supabase.auth.getSession();
-
-                if (error) throw error;
-
-                if (mounted) {
-                    setSession(initialSession);
-                    setUser(initialSession?.user ?? null);
-
-                    // 2. Immediate Hash Cleanup for Production
-                    if (window.location.hash.includes('access_token=')) {
-                        console.log('🧹 Auth: Cleaning OAuth hash');
-                        window.history.replaceState(null, '', window.location.pathname);
-                    }
-
-                    if (initialSession?.user) {
-                        await fetchProfile(initialSession.user.id);
-                    }
-                }
-            } catch (err: any) {
-                console.error('❌ Auth: Init failed', err.message);
-            } finally {
-                if (mounted) {
-                    setLoading(false);
-                    clearTimeout(timeoutId);
-                }
-            }
-        }
-
-        initializeAuth();
-
-        // 3. Subscription Management
+        // 1. Setup Listener FIRST (Single Source of Truth)
         const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, currentSession) => {
             if (!mounted) return;
-            console.log(`🔔 Auth Event: ${event}`);
+            console.log(`🔔 Auth Event: ${event}`, { userId: currentSession?.user?.id });
 
-            if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED' || event === 'USER_UPDATED') {
-                setSession(currentSession);
-                setUser(currentSession?.user ?? null);
-                if (currentSession?.user) await fetchProfile(currentSession.user.id);
+            // CRITICAL PRODUCTION FIX: Clear hash after successful login/refresh
+            if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
+                // Safely clear hash without reload
+                if (window.location.hash && (window.location.hash.includes('access_token') || window.location.hash.includes('type=recovery'))) {
+                    window.history.replaceState(null, '', window.location.pathname);
+                }
             }
 
-            if (event === 'SIGNED_OUT') {
+            if (currentSession?.user) {
+                setSession(currentSession);
+                setUser(currentSession.user);
+
+                // CRITICAL: Set loading false first, then fetch profile in background
+                // This prevents "stuck loading" if profile fetch hangs/fails
+                setLoading(false);
+                await fetchProfile(currentSession.user.id);
+            } else {
                 setSession(null);
                 setUser(null);
                 setProfile(null);
+                setLoading(false);
             }
+        });
 
+        // 2. Initial Session Check (Fire and Forget)
+        supabase.auth.getSession().then(({ data, error }) => {
+            if (!mounted) return;
+            if (error && !error.message.includes('stale')) {
+                console.error('❌ Auth: Session init error', error);
+            }
+            if (data.session) {
+                setSession(data.session);
+                setUser(data.session.user);
+                // Background fetch
+                fetchProfile(data.session.user.id);
+            }
             setLoading(false);
         });
 
@@ -140,12 +128,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
 
     const refreshSession = async () => {
-        const { data, error } = await supabase.auth.refreshSession();
+        const { data, error } = await supabase.auth.getSession();
         if (error) throw error;
-        if (data.session) {
-            setSession(data.session);
-            setUser(data.session.user);
-        }
+        // State updates handled by onAuthStateChange listener
+        return data.session;
     };
 
     const value = {
@@ -154,7 +140,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         profile,
         loading,
         signOut,
-        refreshSession
+        refreshSession,
     };
 
     return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

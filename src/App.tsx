@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { ServicesSection } from './components/ServicesSection';
@@ -38,6 +38,8 @@ function AppContent() {
   const [authModalMode, setAuthModalMode] = useState<'signin' | 'signup'>('signin');
   const [isAdminAuthenticated, setIsAdminAuthenticated] = useState(false);
 
+  const navigate = useNavigate();
+
   const handleLogin = () => {
     setAuthModalMode('signin');
     setIsAuthModalOpen(true);
@@ -46,6 +48,11 @@ function AppContent() {
   const handleSignUp = () => {
     setAuthModalMode('signup');
     setIsAuthModalOpen(true);
+  };
+
+  const handleAuthSuccess = () => {
+    setIsAuthModalOpen(false);
+    navigate('/dashboard');
   };
 
   const handleNavigate = (section: string) => {
@@ -124,7 +131,7 @@ function AppContent() {
       <AuthModal
         isOpen={isAuthModalOpen}
         onClose={() => setIsAuthModalOpen(false)}
-        onSuccess={() => setIsAuthModalOpen(false)}
+        onSuccess={handleAuthSuccess}
         defaultMode={authModalMode}
       />
       <Toaster />

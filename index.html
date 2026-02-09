@@ -1,15 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Ganges Lite Website Build</title>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganges Lite Website Build</title>
+</head>
 
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+<body>
+  <div id="root"></div>
+  <script>
+    window.addEventListener('error', function (e) {
+      if (document.getElementById('root').innerHTML === '') {
+        console.error('Global Error Handler:', e.error);
+        document.body.innerHTML = '<div style="padding:20px;font-family:sans-serif;dislay:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;"><h1>Application Error</h1><p>Check console for details.</p><pre style="background:#eee;padding:10px;border-radius:4px;overflow:auto;max-width:800px;">' + (e.error?.message || e.message) + '</pre></div>';
+      }
+    });
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

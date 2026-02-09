@@ -12,28 +12,40 @@ import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import apiService from '@/services/api.service';
 import { Badge } from '@/components/ui/badge';
+import { ErrorBanner } from '@/components/ui/error-banner';
 
 export function Shipments() {
     const [searchTerm, setSearchTerm] = useState('');
     const [shipments, setShipments] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
     const [filter, setFilter] = useState('All Shipments');
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        loadShipments();
+        let mounted = true;
+        loadShipments(mounted);
+        return () => { mounted = false; };
     }, []);
 
-    const loadShipments = async () => {
+    const loadShipments = async (mounted = true) => {
+        setLoading(true);
+        setError(null);
         try {
-            setLoading(true);
             const data = await apiService.shipment.getShipments();
-            setShipments(data || []);
-        } catch (error) {
+            if (mounted) setShipments(data || []);
+        } catch (error: any) {
             console.error('Failed to load shipments:', error);
+            if (mounted) {
+                setShipments([]);
+                setError(error.message || "Failed to load shipments");
+            }
         } finally {
-            setLoading(false);
+            if (mounted) setLoading(false);
         }
     };
+
+    // Wrapper for retry button
+    const handleRetry = () => loadShipments(true);
 
     const filteredShipments = shipments.filter(shipment => {
         const matchesSearch = shipment.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -110,6 +122,10 @@ export function Shipments() {
                     <div className="p-12 flex flex-col items-center justify-center text-center">
                         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
                         <p className="text-gray-500">Loading shipments...</p>
+                    </div>
+                ) : error ? (
+                    <div className="p-8">
+                        <ErrorBanner message={error} onRetry={handleRetry} />
                     </div>
                 ) : filteredShipments.length > 0 ? (
                     <div className="overflow-x-auto">

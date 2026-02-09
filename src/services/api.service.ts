@@ -32,16 +32,22 @@ async function apiRequest<T>(
     throw new Error('❌ API: Authentication required for this operation');
   }
 
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+
   const defaultOptions: RequestInit = {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${token || import.meta.env.VITE_SUPABASE_ANON_KEY}`,
     },
+    signal: controller.signal,
     ...options,
   };
 
   try {
     const response = await fetch(`${API_URL}${endpoint}`, defaultOptions);
+    clearTimeout(timeoutId);
+
     const data = await response.json();
 
     if (!response.ok) {
@@ -52,6 +58,12 @@ async function apiRequest<T>(
 
     return data;
   } catch (error: any) {
+    clearTimeout(timeoutId);
+    if (error.name === 'AbortError') {
+      const msg = `Request timeout [${endpoint}]`;
+      console.error(`❌ ${msg}`);
+      throw new Error(msg);
+    }
     console.error(`❌ Network Error [${endpoint}]:`, error.message);
     throw error;
   }

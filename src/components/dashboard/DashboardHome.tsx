@@ -23,38 +23,59 @@ export function DashboardHome() {
     ]);
     const [loading, setLoading] = useState(true);
 
+    // Safe Data Fetching Pattern
     useEffect(() => {
+        let mounted = true;
+
         const fetchStats = async () => {
+            if (!user) return;
+
+            setLoading(true);
             try {
-                // Parallel data fetching for performance
+                // Parallel data fetching with safety catches
                 const [packages, shipments, walletData] = await Promise.all([
-                    apiService.package.getPackages().catch(() => []),
-                    apiService.shipment.getShipments().catch(() => []),
-                    apiService.wallet.getBalance().catch(() => ({ balance: 0 }))
+                    apiService.package.getPackages().catch(err => {
+                        console.warn('Failed to load packages', err);
+                        return [];
+                    }),
+                    apiService.shipment.getShipments().catch(err => {
+                        console.warn('Failed to load shipments', err);
+                        return [];
+                    }),
+                    apiService.wallet.getBalance().catch(err => {
+                        console.warn('Failed to load wallet', err);
+                        return { balance: 0 };
+                    })
                 ]);
 
-                // Calculate stats
-                const activePackages = packages.length; // You might want to filter by status if applicable
-                const inTransitShipments = shipments.filter((s: any) => s.status !== 'Delivered' && s.status !== 'Canceled').length;
-                const balance = walletData.balance || 0;
-                const lastOrder = shipments.length > 0 ? (new Date(shipments[0].created_at)).toLocaleDateString() : 'None';
+                if (mounted) {
+                    // Calculate stats
+                    const activePackages = packages.length;
+                    const inTransitShipments = shipments.filter((s: any) => s.status !== 'Delivered' && s.status !== 'Canceled').length;
+                    const balance = walletData.balance || 0;
+                    const lastOrder = shipments.length > 0 ? (new Date(shipments[0].created_at)).toLocaleDateString() : 'None';
 
-                setStats([
-                    { title: 'Active Packages', value: activePackages.toString(), icon: Package, color: 'text-blue-600', bg: 'bg-blue-100' },
-                    { title: 'In Transit', value: inTransitShipments.toString(), icon: Truck, color: 'text-orange-600', bg: 'bg-orange-100' },
-                    { title: 'Wallet Balance', value: `₹${balance.toFixed(2)}`, icon: Wallet, color: 'text-green-600', bg: 'bg-green-100' },
-                    { title: 'Last Order', value: lastOrder, icon: Clock, color: 'text-purple-600', bg: 'bg-purple-100' },
-                ]);
+                    setStats([
+                        { title: 'Active Packages', value: activePackages.toString(), icon: Package, color: 'text-blue-600', bg: 'bg-blue-100' },
+                        { title: 'In Transit', value: inTransitShipments.toString(), icon: Truck, color: 'text-orange-600', bg: 'bg-orange-100' },
+                        { title: 'Wallet Balance', value: `₹${balance.toFixed(2)}`, icon: Wallet, color: 'text-green-600', bg: 'bg-green-100' },
+                        { title: 'Last Order', value: lastOrder, icon: Clock, color: 'text-purple-600', bg: 'bg-purple-100' },
+                    ]);
+                }
             } catch (error) {
                 console.error('Failed to load dashboard stats:', error);
+                // No error UI for stats, just keep skeletons or show empty? 
+                // Currently it will show old stats or default.
             } finally {
-                setLoading(false);
+                if (mounted) setLoading(false);
             }
         };
 
-        if (user) {
-            fetchStats();
-        }
+        fetchStats();
+
+        return () => {
+            mounted = false;
+        };
     }, [user]);
 
     return (

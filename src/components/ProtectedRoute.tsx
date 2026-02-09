@@ -11,7 +11,7 @@ export function ProtectedRoute({ children }: ProtectedRouteProps) {
     const { user, loading } = useAuth();
     const location = useLocation();
 
-    // 1. Production Loader Guard
+    // 1. Wait for AuthContext to initialize (loading=true until first event or session check completes)
     if (loading) {
         return (
             <div className="flex items-center justify-center min-h-screen bg-gray-50">
