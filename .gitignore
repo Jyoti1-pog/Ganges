@@ -4,3 +4,10 @@ dist
 build
 .env
 .env.local
+
+node_modules/
+.env.*
+backend/logs/
+*.log
+test_output.txt
+dist/
