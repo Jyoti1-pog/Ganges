@@ -110,18 +110,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     const signOut = async () => {
         try {
-            // Do NOT set loading(true) here. It triggers ProtectedRoute loader and unmounts the app,
-            // which can confuse the user ("buffering") or race with navigation.
-            // We want an immediate redirect via the User state change.
-
-            // 1. Optimistic Cleanup
+            // Optimistic Cleanup
             setSession(null);
             setUser(null);
             setProfile(null);
 
-            // 2. Perform Supabase SignOut (background)
-            const { error } = await supabase.auth.signOut();
-            if (error) console.error('Error signing out:', error);
+            // Clear modular tokens
+            localStorage.removeItem('ganges_token');
+            localStorage.removeItem('ganges_refresh_token');
+            localStorage.removeItem('user');
+
+            // Perform Supabase SignOut
+            await supabase.auth.signOut();
         } catch (err) {
             console.error('Unexpected error during sign out:', err);
         }

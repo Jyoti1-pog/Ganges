@@ -1,0 +1,1251 @@
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:52:18"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:55:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:05"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:05"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:06"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:06"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:07"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:07"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:08"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:09"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:10"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:10"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:11"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:12"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:15"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:17"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:18"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:55:47"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:47"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:47"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:47"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:48"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:48"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:48"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:50"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:50"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:51"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:52"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:52"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:53"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:54"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:55"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:56"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:56"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:57"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:55:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:56:00"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:56:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis connection error","stack":"AggregateError: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2026-02-11 00:56:02"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:56:22"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:22"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:22"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:22"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:56:58"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:58"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:58"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:56:58"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:57:50"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:57:50"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:57:50"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:57:50"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:58:21"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:58:21"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:58:21"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:58:21"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 00:59:18"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:59:18"}
+{"level":"error","message":"[GET] /health >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:59:18"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> Unhandled Error:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 00:59:18"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 01:00:03"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:03"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:03"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:03"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 01:00:14"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:14"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:14"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:00:14"}
+{"level":"info","message":"Background Job Workers Initialized","timestamp":"2026-02-11 01:01:35"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:01:35"}
+{"level":"error","message":"[GET] /health >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:01:35"}
+{"level":"error","message":"[GET] /api/v1/user/profile >> StatusCode:: 500, Message:: unexpected reply from redis client","stack":"TypeError: unexpected reply from redis client\n    at RedisStore.loadIncrementScript (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:108:13)\n    at processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at evalCommand (C:\\Users\\sama\\OneDrive\\Desktop\\Ganges\\backend\\node_modules\\rate-limit-redis\\dist\\index.cjs:136:9)","timestamp":"2026-02-11 01:01:35"}
+2026-02-11 01:04:11 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-11 01:04:11 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:13 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:13 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:13 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:14 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:14 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:15 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:16 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:16 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:17 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:18 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:18 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:19 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:20 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:21 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:24 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:26 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:27 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:28 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:29 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:31 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:32 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:34 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:35 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:37 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:38 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:40 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:42 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:43 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:45 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:47 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:49 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:51 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:53 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:55 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:57 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:04:59 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:01 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:03 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:05 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:07 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:09 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:11 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:13 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:15 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:17 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:19 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:21 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:25 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:27 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:29 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:31 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:33 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:35 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:37 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:39 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:41 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:43 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:46 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:48 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:50 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:52 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:54 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:56 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:05:58 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:00 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:02 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:04 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:06 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:08 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:10 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:14 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:16 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:18 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:20 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:24 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:26 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:28 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:30 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:32 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:34 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 01:06:36 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:21 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-11 20:34:21 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:21 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:22 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:24 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:24 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:25 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:26 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:26 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:27 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:28 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:29 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:29 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:30 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:31 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:32 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:33 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:34 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:36 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:37 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:38 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:39 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:41 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:42 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:44 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:45 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:47 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:48 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:50 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:52 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:54 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:55 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:57 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:34:59 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:01 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:03 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:05 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:07 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:09 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:11 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:13 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:15 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:17 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:19 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:21 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:23 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:25 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:27 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:29 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:31 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:33 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:35 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:37 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:39 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:41 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:43 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:45 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:47 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:49 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:51 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:53 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:55 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:35:57 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:00 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:02 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:04 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:06 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:08 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:10 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:12 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 20:36:14 [[31merror[39m] : Redis connection error{"code":"ECONNREFUSED","stack":"AggregateError\n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)"}
+2026-02-11 23:59:51 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-11 23:59:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-11 23:59:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:00:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:01:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 00:02:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 01:39:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 01:39:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 04:33:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 04:33:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 04:33:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 04:33:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 04:33:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:02:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:03:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:04:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:05:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:06:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:07:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:08:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:09:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:10:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:11:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:12:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:13:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:14:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:15:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:16:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:17:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:18:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:29 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:31 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:33 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:19:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:03 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:05 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:07 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:09 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:11 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:13 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:15 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:17 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:19 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:21 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:23 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:25 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:27 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:20:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:34 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:36 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:38 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:40 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:42 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:44 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:46 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:48 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:50 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:52 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:54 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:56 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:21:58 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:00 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:02 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:04 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:06 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:08 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:10 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:12 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:14 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:16 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:18 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:20 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:22 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:24 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:26 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:28 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:30 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:32 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:35 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:37 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:39 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:41 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:43 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:45 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:47 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:49 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:51 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:53 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:55 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:57 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:22:59 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:23:01 [[33mwarn[39m] : Redis connection failed - Rate limiting and background jobs will be disabled.
+2026-02-12 16:23:03 [[32minfo[39m] : Redis connected
+2026-02-12 16:30:47 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 16:30:48 [[32minfo[39m] : Redis connected
+2026-02-12 16:31:10 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 16:31:10 [[32minfo[39m] : Redis connected
+2026-02-12 16:34:39 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 16:34:39 [[32minfo[39m] : Redis connected
+2026-02-12 16:36:23 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 16:36:23 [[32minfo[39m] : Redis connected
+2026-02-12 16:41:54 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 16:41:54 [[32minfo[39m] : Redis connected
+2026-02-12 20:09:38 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:09:38 [[32minfo[39m] : Redis connected
+2026-02-12 20:10:57 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:10:57 [[32minfo[39m] : Redis connected
+2026-02-12 20:10:58 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:10:58 [[32minfo[39m] : Redis connected
+2026-02-12 20:11:37 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:11:37 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 20:11:37 [[32minfo[39m] : Redis connected
+2026-02-12 20:12:34 [[32minfo[39m] : [0mGET /health [32m200[0m 2.565 ms - 86[0m
+2026-02-12 20:13:10 [[32minfo[39m] : [0mGET /health [32m200[0m 0.268 ms - 86[0m
+2026-02-12 20:14:09 [[32minfo[39m] : [0mGET /health [32m200[0m 0.458 ms - 86[0m
+2026-02-12 20:14:09 [[32minfo[39m] : [0mGET /health [36m304[0m 0.807 ms - -[0m
+2026-02-12 20:14:09 [[32minfo[39m] : [0mGET /favicon.ico [33m404[0m 1.405 ms - 55[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs [36m301[0m 9.730 ms - 158[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/ [32m200[0m 2.174 ms - 3106[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 6.483 ms - -[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.317 ms - 1968[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [32m200[0m 26.634 ms - 177183[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 2.508 ms - -[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 16.729 ms - 252451[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.300 ms - -[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 5.877 ms - -[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.505 ms - -[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 27.046 ms - 1510271[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/favicon-32x32.png [32m200[0m 12.992 ms - 628[0m
+2026-02-12 20:14:16 [[32minfo[39m] : [0mGET /api-docs/favicon-32x32.png [36m304[0m 3.288 ms - -[0m
+2026-02-12 20:21:12 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:21:12 [[32minfo[39m] : Redis connected
+2026-02-12 20:21:12 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:21:12 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 20:21:12 [[32minfo[39m] : Redis connected
+2026-02-12 20:21:12 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:21:12 [[32minfo[39m] : Redis connected
+2026-02-12 20:40:02 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 20:40:02 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 20:40:02 [[32minfo[39m] : Redis connected
+2026-02-12 20:48:12 [[32minfo[39m] : [0mGET / [33m404[0m 8.449 ms - 55[0m
+2026-02-12 20:48:13 [[32minfo[39m] : [0mGET /favicon.ico [33m404[0m 1.075 ms - 55[0m
+2026-02-12 20:48:43 [[32minfo[39m] : [0mGET /api [33m404[0m 1.194 ms - 55[0m
+2026-02-12 22:21:05 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:21:05 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:21:05 [[32minfo[39m] : Redis connected
+2026-02-12 22:21:32 [[32minfo[39m] : [0mGET / [33m404[0m 6.784 ms - 55[0m
+2026-02-12 22:25:02 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:25:02 [[32minfo[39m] : Redis connected
+2026-02-12 22:25:02 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:25:02 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:28:52 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:28:52 [[32minfo[39m] : Redis connected
+2026-02-12 22:28:52 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:33:50 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:33:50 [[32minfo[39m] : Redis connected
+2026-02-12 22:33:50 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:33:50 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:33:51 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:33:51 [[32minfo[39m] : Redis connected
+2026-02-12 22:33:51 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:34:46 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:34:46 [[32minfo[39m] : Redis connected
+2026-02-12 22:34:46 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:34:46 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:34:46 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:34:46 [[32minfo[39m] : Redis connected
+2026-02-12 22:34:47 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:35:03 [[32minfo[39m] : [0mGET / [32m200[0m 2.154 ms - 54[0m
+2026-02-12 22:35:10 [[32minfo[39m] : [0mGET /non-existent [33m404[0m 0.910 ms - 55[0m
+2026-02-12 22:35:48 [[32minfo[39m] : [0mGET / [32m200[0m 3.505 ms - 54[0m
+2026-02-12 22:35:48 [[32minfo[39m] : [0mGET / [36m304[0m 0.981 ms - -[0m
+2026-02-12 22:35:57 [[32minfo[39m] : [0mGET /unknown [33m404[0m 0.613 ms - 55[0m
+2026-02-12 22:35:57 [[32minfo[39m] : [0mGET /unknown [33m404[0m 0.336 ms - 55[0m
+2026-02-12 22:45:34 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:45:34 [[32minfo[39m] : Redis connected
+2026-02-12 22:45:34 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:45:34 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:46:12 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 22:46:12 [[32minfo[39m] : Redis connected
+2026-02-12 22:46:12 [[32minfo[39m] : Database connected successfully
+2026-02-12 22:46:12 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 22:49:38 [[32minfo[39m] : [0mGET / [36m304[0m 5.408 ms - -[0m
+2026-02-12 22:50:42 [[32minfo[39m] : [0mGET / [36m304[0m 0.450 ms - -[0m
+2026-02-12 22:50:55 [[32minfo[39m] : [0mGET /health [36m304[0m 0.770 ms - -[0m
+2026-02-12 22:51:30 [[32minfo[39m] : [0mGET / [36m304[0m 0.334 ms - -[0m
+2026-02-12 22:52:01 [[32minfo[39m] : [0mGET /health [36m304[0m 0.462 ms - -[0m
+2026-02-12 22:52:11 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 2.317 ms - -[0m
+2026-02-12 22:52:12 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 4.202 ms - -[0m
+2026-02-12 22:52:12 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.070 ms - -[0m
+2026-02-12 22:52:12 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.513 ms - -[0m
+2026-02-12 22:52:12 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.288 ms - -[0m
+2026-02-12 23:02:50 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:02:50 [[32minfo[39m] : Redis connected
+2026-02-12 23:02:50 [[32minfo[39m] : Database connected successfully
+2026-02-12 23:02:50 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 23:03:02 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:03:02 [[32minfo[39m] : Redis connected
+2026-02-12 23:03:02 [[32minfo[39m] : Database connected successfully
+2026-02-12 23:03:02 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 23:04:10 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:04:10 [[32minfo[39m] : Redis connected
+2026-02-12 23:04:10 [[32minfo[39m] : Database connected successfully
+2026-02-12 23:04:10 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 23:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 5.093 ms - 3106[0m
+2026-02-12 23:05:54 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 0.894 ms - 3106[0m
+2026-02-12 23:06:18 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:06:18 [[32minfo[39m] : Redis connected
+2026-02-12 23:06:18 [[32minfo[39m] : Database connected successfully
+2026-02-12 23:06:18 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 23:06:30 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 3.380 ms - 3106[0m
+2026-02-12 23:22:19 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:22:19 [[32minfo[39m] : Redis connected
+2026-02-12 23:22:19 [[32minfo[39m] : Database connected successfully
+2026-02-12 23:22:19 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-12 23:22:21 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 2.926 ms - 3106[0m
+2026-02-12 23:22:44 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 0.931 ms - 3106[0m
+2026-02-12 23:23:20 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 0.950 ms - 3106[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 3.632 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 11.494 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 2.099 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.448 ms - 12379[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 11.688 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 10.617 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 1.988 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.529 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 10.301 ms - -[0m
+2026-02-12 23:24:40 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 10.807 ms - -[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs [36m301[0m 1.113 ms - 158[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs/ [32m200[0m 1.359 ms - 3106[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.404 ms - 12379[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [32m200[0m 20.529 ms - 177183[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 19.063 ms - 252451[0m
+2026-02-12 23:27:07 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 19.967 ms - 1510271[0m
+2026-02-12 23:27:08 [[32minfo[39m] : [0mGET /api-docs/favicon-32x32.png [32m200[0m 2.694 ms - 628[0m
+2026-02-12 23:27:14 [[32minfo[39m] : [0mGET /api-docs/swagger.json [32m200[0m 1.953 ms - 3106[0m
+2026-02-12 23:27:14 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 1.313 ms - -[0m
+2026-02-12 23:27:14 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.350 ms - -[0m
+2026-02-12 23:27:14 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.840 ms - -[0m
+2026-02-12 23:27:14 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.369 ms - -[0m
+2026-02-12 23:27:41 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-12 23:27:41 [[32minfo[39m] : Redis connected
+2026-02-12 23:27:41 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:00:43 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:00:43 [[32minfo[39m] : Redis connected
+2026-02-13 00:00:43 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:00:43 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-13 00:03:46 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 7.280 ms - -[0m
+2026-02-13 00:03:47 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 1.934 ms - -[0m
+2026-02-13 00:03:47 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.800 ms - -[0m
+2026-02-13 00:03:47 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 8.128 ms - -[0m
+2026-02-13 00:03:47 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.971 ms - -[0m
+2026-02-13 00:04:14 [[32minfo[39m] : [0mGET /health [36m304[0m 1.147 ms - -[0m
+2026-02-13 00:04:26 [[32minfo[39m] : [0mGET / [36m304[0m 0.657 ms - -[0m
+2026-02-13 00:06:09 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:06:09 [[32minfo[39m] : Redis connected
+2026-02-13 00:06:09 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:06:09 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-13 00:06:09 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:06:09 [[32minfo[39m] : Redis connected
+2026-02-13 00:06:09 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:06:10 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:06:10 [[32minfo[39m] : Redis connected
+2026-02-13 00:06:10 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:07:53 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:07:53 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:07:53 [[32minfo[39m] : Redis connected
+2026-02-13 00:07:53 [[32minfo[39m] : Redis connected
+2026-02-13 00:07:53 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:07:53 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:07:53 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-13 00:07:53 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:07:53 [[32minfo[39m] : Redis connected
+2026-02-13 00:07:53 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:13:39 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:13:39 [[32minfo[39m] : Redis connected
+2026-02-13 00:13:39 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:13:39 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-13 00:13:39 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:13:39 [[32minfo[39m] : Redis connected
+2026-02-13 00:13:39 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:13:39 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:13:39 [[32minfo[39m] : Redis connected
+2026-02-13 00:13:39 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:16:12 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:16:12 [[32minfo[39m] : Redis connected
+2026-02-13 00:16:12 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:16:12 [[32minfo[39m] : Ganges Backend running on port 3000 in development mode
+2026-02-13 00:16:35 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 6.183 ms - -[0m
+2026-02-13 00:16:35 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 1.835 ms - -[0m
+2026-02-13 00:16:35 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.550 ms - -[0m
+2026-02-13 00:16:35 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 8.590 ms - -[0m
+2026-02-13 00:16:35 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 8.322 ms - -[0m
+2026-02-13 00:29:07 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:29:08 [[32minfo[39m] : Redis connected
+2026-02-13 00:29:08 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:29:20 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:29:20 [[32minfo[39m] : Redis connected
+2026-02-13 00:29:20 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:30:05 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:30:05 [[32minfo[39m] : Redis connected
+2026-02-13 00:30:05 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:34:38 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:34:39 [[32minfo[39m] : Redis connected
+2026-02-13 00:34:39 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:35:14 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 00:35:14 [[32minfo[39m] : Redis connected
+2026-02-13 00:35:14 [[32minfo[39m] : Database connected successfully
+2026-02-13 00:38:37 [[32minfo[39m] : [0mGET / [36m304[0m 3.866 ms - -[0m
+2026-02-13 00:53:03 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 3.690 ms - -[0m
+2026-02-13 00:53:03 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 3.872 ms - -[0m
+2026-02-13 00:53:03 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.732 ms - -[0m
+2026-02-13 00:53:03 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.992 ms - -[0m
+2026-02-13 00:53:03 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.295 ms - -[0m
+2026-02-13 01:43:10 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 01:43:10 [[32minfo[39m] : Redis connected
+2026-02-13 01:43:10 [[32minfo[39m] : Database connected successfully
+2026-02-13 01:43:32 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 01:43:32 [[32minfo[39m] : Redis connected
+2026-02-13 01:43:33 [[32minfo[39m] : Database connected successfully
+2026-02-13 01:43:47 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 01:43:47 [[32minfo[39m] : Redis connected
+2026-02-13 01:43:47 [[32minfo[39m] : Database connected successfully
+2026-02-13 01:44:36 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 01:44:36 [[32minfo[39m] : Redis connected
+2026-02-13 01:44:36 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:01:21 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:01:21 [[32minfo[39m] : Redis connected
+2026-02-13 02:01:21 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:01:43 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:01:43 [[32minfo[39m] : Redis connected
+2026-02-13 02:01:43 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:02:03 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:02:03 [[32minfo[39m] : Redis connected
+2026-02-13 02:02:03 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:02:28 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:02:28 [[32minfo[39m] : Redis connected
+2026-02-13 02:02:28 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:02:54 [[32minfo[39m] : [0mGET /health [32m200[0m 5.697 ms - 86[0m
+2026-02-13 02:03:23 [[32minfo[39m] : [0mGET /api-docs/ [32m200[0m 4.032 ms - 3106[0m
+2026-02-13 02:05:09 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 2.499 ms - -[0m
+2026-02-13 02:05:09 [[32minfo[39m] : [0mGET /api-docs/ [36m304[0m 7.965 ms - -[0m
+2026-02-13 02:05:09 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 3.563 ms - -[0m
+2026-02-13 02:05:09 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.364 ms - -[0m
+2026-02-13 02:05:09 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 19.830 ms - -[0m
+2026-02-13 02:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 30.618 ms - -[0m
+2026-02-13 02:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger-ui.css [36m304[0m 4.824 ms - -[0m
+2026-02-13 02:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.610 ms - -[0m
+2026-02-13 02:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 11.881 ms - -[0m
+2026-02-13 02:05:10 [[32minfo[39m] : [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 7.913 ms - -[0m
+2026-02-13 02:05:30 [[32minfo[39m] : [0mGET /health [36m304[0m 1.015 ms - -[0m
+2026-02-13 02:05:30 [[32minfo[39m] : [0mGET /health [36m304[0m 0.386 ms - -[0m
+2026-02-13 02:29:14 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:29:14 [[32minfo[39m] : Redis connected
+2026-02-13 02:29:14 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:30:06 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:30:06 [[32minfo[39m] : Redis connected
+2026-02-13 02:30:06 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:32:58 [[32minfo[39m] : Background Job Workers Initialized
+2026-02-13 02:32:58 [[32minfo[39m] : Redis connected
+2026-02-13 02:32:58 [[32minfo[39m] : Database connected successfully
+2026-02-13 02:33:23 [[32minfo[39m] : [0mGET /health [32m200[0m 7.622 ms - 86[0m
+2026-02-13 02:34:04 [[32minfo[39m] : [0mGET /health [32m200[0m 0.955 ms - 86[0m
+2026-02-13 02:41:02 [[32minfo[39m] : [0mGET /health [32m200[0m 0.643 ms - 86[0m
+2026-02-13 02:45:26 [[32minfo[39m] : [0mGET /health [36m304[0m 10.505 ms - -[0m
+2026-02-13 02:45:26 [[32minfo[39m] : [0mGET /health [36m304[0m 1.093 ms - -[0m

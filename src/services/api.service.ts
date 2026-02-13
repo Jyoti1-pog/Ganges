@@ -6,8 +6,7 @@
 import { supabase } from '../lib/supabaseClient';
 
 // Use environment variable for Functions URL or derive it
-const PROJECT_URL = import.meta.env.VITE_SUPABASE_URL;
-const API_URL = `${PROJECT_URL}/functions/v1/make-server-9f100126`;
+const API_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3000/api/v1';
 
 // Helper to ensure session exists before direct DB queries
 async function ensureSession() {
@@ -23,8 +22,13 @@ async function apiRequest<T>(
   endpoint: string,
   options: RequestInit = {}
 ): Promise<T> {
-  const { data: { session } } = await supabase.auth.getSession();
-  const token = session?.access_token || null;
+  // Use modular backend token if available, otherwise fallback to Supabase for migration period
+  let token = localStorage.getItem('ganges_token');
+
+  if (!token) {
+    const { data: { session } } = await supabase.auth.getSession();
+    token = session?.access_token || null;
+  }
 
   // Strict session check for protected endpoints
   const isPublic = endpoint.startsWith('/auth') || endpoint === '/coupons/validate' || endpoint.includes('/track/');
@@ -38,7 +42,7 @@ async function apiRequest<T>(
   const defaultOptions: RequestInit = {
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${token || import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+      'Authorization': `Bearer ${token}`,
     },
     signal: controller.signal,
     ...options,
@@ -56,7 +60,8 @@ async function apiRequest<T>(
       throw new Error(errorMessage);
     }
 
-    return data;
+    // Modular backend wraps results in a 'data' property
+    return data.data !== undefined ? data.data : data;
   } catch (error: any) {
     clearTimeout(timeoutId);
     if (error.name === 'AbortError') {
@@ -78,30 +83,22 @@ export const authService = {
    * Login user
    */
   async login(email: string, password: string) {
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
+    const response: any = await apiRequest('/auth/login', {
+      method: 'POST',
+      body: JSON.stringify({ email, password }),
     });
 
-    if (error) throw error;
+    // Store tokens for modular backend
+    localStorage.setItem('ganges_token', response.accessToken);
+    localStorage.setItem('ganges_refresh_token', response.refreshToken);
 
-    // Get user profile - NON-BLOCKING for the login return
-    let profile = null;
-    try {
-      const { data: profileData } = await supabase
-        .from('user_profiles')
-        .select('*')
-        .eq('id', data.user.id)
-        .single();
-      profile = profileData;
-    } catch (e) {
-      console.warn('⚠️ Login: Profile fetch skipped');
-    }
+    // Support existing Supabase-style session if needed
+    localStorage.setItem('user', JSON.stringify(response.user));
 
     return {
-      user: data.user,
-      profile,
-      session: data.session,
+      user: response.user,
+      profile: response.user.profile,
+      session: { access_token: response.accessToken },
     };
   },
 
@@ -109,45 +106,20 @@ export const authService = {
    * Register new user
    */
   async register(userData: {
-    name: string;
+    firstName: string;
+    lastName: string;
     email: string;
     password: string;
     phone: string;
   }) {
-    const { data, error } = await supabase.auth.signUp({
-      email: userData.email,
-      password: userData.password,
-      options: {
-        data: {
-          full_name: userData.name,
-          phone: userData.phone,
-        },
-      },
+    const response: any = await apiRequest('/auth/register', {
+      method: 'POST',
+      body: JSON.stringify(userData),
     });
 
-    if (error) throw error;
-
-    if (data.user) {
-      const { error: profileError } = await supabase
-        .from('user_profiles')
-        .upsert({
-          id: data.user.id,
-          email: userData.email,
-          full_name: userData.name,
-          phone: userData.phone,
-          wallet_balance: 0,
-        }, {
-          onConflict: 'id'
-        });
-
-      if (profileError && profileError.code !== '23505') {
-        console.error('🔴 Profile integration issue:', profileError);
-      }
-    }
-
     return {
-      user: data.user,
-      session: data.session,
+      user: response.user,
+      session: { access_token: response.accessToken },
     };
   },
 
@@ -525,32 +497,23 @@ export const referralService = {
 
 export const adminService = {
   /**
-   * Admin login
+   * Admin login (standardized via modular auth)
    */
   async login(email: string, password: string) {
-    // Use Supabase auth for admin login
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+    const response = await authService.login(email, password);
 
-    if (error) throw error;
-
-    // Verify admin email
-    const adminEmails = ['gangescompany@gmail.com', 'jay@ganges.world'];
-    if (!adminEmails.includes(data.user.email || '')) {
-      await supabase.auth.signOut();
+    if (response.user.role !== 'ADMIN') {
       throw new Error('Admin access required');
     }
 
-    return { success: true, user: data.user };
+    return { success: true, user: response.user };
   },
 
   /**
    * Get dashboard statistics
    */
   async getDashboardStats() {
-    return await apiRequest('/admin/stats');
+    return await apiRequest('/dashboard/admin');
   },
 
   /**
@@ -558,6 +521,23 @@ export const adminService = {
    */
   async getUsers() {
     return await apiRequest('/admin/users');
+  },
+
+  /**
+   * Get all shipments
+   */
+  async getAllShipments() {
+    return await apiRequest('/admin/shipments');
+  },
+
+  /**
+   * Update user status
+   */
+  async updateUserStatus(userId: string, isActive: boolean) {
+    return await apiRequest(`/admin/users/${userId}/status`, {
+      method: 'PATCH',
+      body: JSON.stringify({ isActive }),
+    });
   },
 
   /**
@@ -627,6 +607,40 @@ export const adminService = {
   },
 };
 
+// ========================================
+// Dashboard Services
+// ========================================
+
+export const dashboardService = {
+  /**
+   * Get customer dashboard
+   */
+  async getCustomerDashboard() {
+    return await apiRequest<any>('/dashboard/customer');
+  },
+
+  /**
+   * Get driver dashboard
+   */
+  async getDriverDashboard() {
+    return await apiRequest<any>('/dashboard/driver');
+  },
+
+  /**
+   * Get manager dashboard
+   */
+  async getManagerDashboard() {
+    return await apiRequest<any>('/dashboard/manager');
+  },
+
+  /**
+   * Get admin dashboard
+   */
+  async getAdminDashboard() {
+    return await apiRequest<any>('/dashboard/admin');
+  },
+};
+
 // Export all services
 export default {
   auth: authService,
@@ -638,4 +652,5 @@ export default {
   coupon: couponService,
   referral: referralService,
   admin: adminService,
+  dashboard: dashboardService,
 };

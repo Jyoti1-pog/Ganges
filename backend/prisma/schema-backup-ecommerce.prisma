@@ -1,0 +1,362 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Enums
+enum UserRole {
+  USER
+  RESELLER
+  EXPORTER
+  WAREHOUSE_ADMIN
+  SUPER_ADMIN
+  SUPPORT_AGENT
+}
+
+enum PackageStatus {
+  RECEIVED
+  INSPECTED
+  CONSOLIDATED
+  SHIPPED
+  DELIVERED
+  RETURNED
+  LOST
+}
+
+enum ShipmentStatus {
+  DRAFT
+  PAYMENT_PENDING
+  PAID
+  PROCESSING
+  DISPATCHED
+  IN_TRANSIT
+  DELIVERED
+  CANCELLED
+}
+
+enum WalletTransactionType {
+  DEPOSIT
+  WITHDRAWAL
+  PAYMENT
+  REFUND
+  COMMISSION
+}
+
+// Models
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String // Hashed
+  role      UserRole @default(USER)
+  isVerified Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // Relations
+  profile     Profile?
+  wallet      Wallet?
+  virtualAddress VirtualAddress?
+  supportTickets SupportTicket[]
+  resellerApplication ResellerApplication?
+  exporterApplication ExporterApplication?
+  personalShopperRequests PersonalShopperRequest[]
+  refreshTokens RefreshToken[]
+  
+  // Audit
+  deletedAt DateTime? 
+}
+
+model Profile {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  firstName String
+  lastName  String
+  phone     String?
+  avatarUrl String?
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  revoked   Boolean  @default(false)
+}
+
+model VirtualAddress {
+  id          String   @id @default(uuid())
+  userId      String   @unique
+  gangesId    String   @unique // The unique code like GANGES-1234
+  addressLine1 String  @default("Building A, Unit 402")
+  addressLine2 String  @default("Logistics Hub, Mumbai")
+  city        String   @default("Mumbai")
+  state       String   @default("Maharashtra")
+  zipCode     String   @default("400001")
+  country     String   @default("India")
+  
+  user        User     @relation(fields: [userId], references: [id])
+  packages    Package[]
+}
+
+model Package {
+  id          String   @id @default(uuid())
+  virtualAddressId String
+  virtualAddress VirtualAddress @relation(fields: [virtualAddressId], references: [id])
+  
+  trackingNumber String? // Incoming tracking number
+  carrier     String?
+  weight      Float?   // kg
+  length      Float?   // cm
+  width       Float?   // cm
+  height      Float?   // cm
+  
+  description String?
+  status      PackageStatus @default(RECEIVED)
+  
+  warehousePhotos WarehousePhoto[]
+  inspectionNotes String?
+  
+  lockerItem  LockerItem?
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model LockerItem {
+  id          String   @id @default(uuid())
+  packageId   String   @unique
+  package     Package  @relation(fields: [packageId], references: [id])
+  
+  shelfLocation String?
+  storedSince DateTime @default(now())
+  
+  shipmentItem ShipmentItem?
+}
+
+model Shipment {
+  id          String   @id @default(uuid())
+  userId      String
+  // User relation could be direct or via a different path, keeping it simple for now, 
+  // but strictly Package belongs to VirtualAddress which belongs to User.
+  
+  items       ShipmentItem[]
+  
+  status      ShipmentStatus @default(DRAFT)
+  destinationCountry String
+  destinationAddress String
+  
+  totalWeight Float?
+  volumetricWeight Float?
+  chargeableWeight Float?
+  
+  shippingCost Decimal?
+  insuranceCost Decimal?
+  totalCost    Decimal?
+  
+  trackingNumber String?
+  carrier      String?
+  courierLabelUrl String?
+  
+  invoiceUrl   String?
+  customsValue Decimal?
+  
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  
+  trackingEvents TrackingEvent[]
+}
+
+model ShipmentItem {
+  id          String   @id @default(uuid())
+  shipmentId  String
+  shipment    Shipment @relation(fields: [shipmentId], references: [id])
+  
+  lockerItemId String @unique
+  lockerItem  LockerItem @relation(fields: [lockerItemId], references: [id])
+}
+
+model TrackingEvent {
+  id          String   @id @default(uuid())
+  shipmentId  String
+  shipment    Shipment @relation(fields: [shipmentId], references: [id])
+  
+  status      String
+  location    String?
+  timestamp   DateTime @default(now())
+  description String?
+}
+
+model WarehousePhoto {
+  id          String   @id @default(uuid())
+  packageId   String
+  package     Package  @relation(fields: [packageId], references: [id])
+  url         String
+  createdAt   DateTime @default(now())
+}
+
+model Wallet {
+  id          String   @id @default(uuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id])
+  balance     Decimal  @default(0.00)
+  currency    String   @default("USD")
+  
+  transactions WalletTransaction[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model WalletTransaction {
+  id          String   @id @default(uuid())
+  walletId    String
+  wallet      Wallet   @relation(fields: [walletId], references: [id])
+  
+  amount      Decimal
+  type        WalletTransactionType
+  description String?
+  referenceId String? // e.g., Stripe Payment ID or Shipment ID
+  
+  status      String   @default("COMPLETED") // PENDING, COMPLETED, FAILED
+  createdAt   DateTime @default(now())
+}
+
+model SupportTicket {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  
+  subject     String
+  message     String
+  status      String   @default("OPEN") // OPEN, IN_PROGRESS, CLOSED
+  priority    String   @default("NORMAL")
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model ResellerApplication {
+  id          String   @id @default(uuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id])
+  
+  companyName String
+  businessType String
+  gstNumber   String?
+  website     String?
+  
+  status      String   @default("PENDING") // PENDING, APPROVED, REJECTED
+  reviewedBy  String?
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model ExporterApplication {
+  id          String   @id @default(uuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id])
+  
+  companyName String
+  exportCategories String // serialized array or string
+  iecCode     String // Import Export Code
+  
+  status      String   @default("PENDING")
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model PersonalShopperRequest {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  
+  url         String
+  itemName    String
+  quantity    Int
+  size        String?
+  color       String?
+  maxPrice    Decimal?
+  
+  status      String   @default("PENDING") // PENDING, QUOTED, PURCHASED, REJECTED
+  
+  adminQuote  Decimal?
+  adminNote   String?
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Coupon {
+  id          String   @id @default(uuid())
+  code        String   @unique
+  discountType String  // PERCENTAGE, FIXED
+  value       Decimal
+  maxUse      Int?
+  usedCount   Int      @default(0)
+  expiresAt   DateTime?
+  isActive    Boolean  @default(true)
+  
+  createdAt   DateTime @default(now())
+}
+
+// System & Security Models
+
+model AuditLog {
+  id          String   @id @default(uuid())
+  userId      String?
+  action      String   // e.g., "SHIPMENT_CREATED", "USER_UPDATED"
+  entityId    String   // ID of the entity being acted upon
+  entityType  String   // e.g., "Shipment", "User"
+  
+  oldValue    Json?    // Serialized JSON of old state
+  newValue    Json?    // Serialized JSON of new state
+  ipAddress   String?
+  userAgent   String?
+  
+  createdAt   DateTime @default(now())
+
+  @@index([userId])
+  @@index([entityType, entityId])
+}
+
+model IdempotencyKey {
+  key         String   @id
+  userId      String
+  path        String
+  method      String
+  
+  responseCode Int?
+  responseBody Json?
+  
+  status      String   @default("IN_PROGRESS") // IN_PROGRESS, COMPLETED
+  createdAt   DateTime @default(now())
+  lockedAt    DateTime @default(now())
+  
+  @@unique([userId, key])
+}
+
+model WebhookEvent {
+  id          String   @id @default(uuid())
+  provider    String   // STRIPE, RAZORPAY, SHIPROCKET
+  eventType   String
+  payload     Json
+  
+  status      String   @default("PENDING") // PENDING, PROCESSED, FAILED
+  error       String?
+  
+  createdAt   DateTime @default(now())
+  processedAt DateTime?
+  
+  @@index([provider, eventType])
+}

@@ -32,40 +32,21 @@ export function DashboardHome() {
 
             setLoading(true);
             try {
-                // Parallel data fetching with safety catches
-                const [packages, shipments, walletData] = await Promise.all([
-                    apiService.package.getPackages().catch(err => {
-                        console.warn('Failed to load packages', err);
-                        return [];
-                    }),
-                    apiService.shipment.getShipments().catch(err => {
-                        console.warn('Failed to load shipments', err);
-                        return [];
-                    }),
-                    apiService.wallet.getBalance().catch(err => {
-                        console.warn('Failed to load wallet', err);
-                        return { balance: 0 };
-                    })
-                ]);
+                // Use the consolidated modular backend dashboard endpoint
+                const data = await apiService.dashboard.getCustomerDashboard();
 
                 if (mounted) {
-                    // Calculate stats
-                    const activePackages = packages.length;
-                    const inTransitShipments = shipments.filter((s: any) => s.status !== 'Delivered' && s.status !== 'Canceled').length;
-                    const balance = walletData.balance || 0;
-                    const lastOrder = shipments.length > 0 ? (new Date(shipments[0].created_at)).toLocaleDateString() : 'None';
+                    const { activeShipments, recentShipments, totalSpent } = data;
 
                     setStats([
-                        { title: 'Active Packages', value: activePackages.toString(), icon: Package, color: 'text-blue-600', bg: 'bg-blue-100' },
-                        { title: 'In Transit', value: inTransitShipments.toString(), icon: Truck, color: 'text-orange-600', bg: 'bg-orange-100' },
-                        { title: 'Wallet Balance', value: `₹${balance.toFixed(2)}`, icon: Wallet, color: 'text-green-600', bg: 'bg-green-100' },
-                        { title: 'Last Order', value: lastOrder, icon: Clock, color: 'text-purple-600', bg: 'bg-purple-100' },
+                        { title: 'Active Packages', value: activeShipments.length.toString(), icon: Package, color: 'text-blue-600', bg: 'bg-blue-100' },
+                        { title: 'In Transit', value: activeShipments.filter((s: any) => s.status === 'IN_TRANSIT').length.toString(), icon: Truck, color: 'text-orange-600', bg: 'bg-orange-100' },
+                        { title: 'Wallet Balance', value: `₹${totalSpent.toFixed(2)}`, icon: Wallet, color: 'text-green-600', bg: 'bg-green-100' },
+                        { title: 'Last Order', value: recentShipments.length > 0 ? new Date(recentShipments[0].createdAt).toLocaleDateString() : 'None', icon: Clock, color: 'text-purple-600', bg: 'bg-purple-100' },
                     ]);
                 }
             } catch (error) {
                 console.error('Failed to load dashboard stats:', error);
-                // No error UI for stats, just keep skeletons or show empty? 
-                // Currently it will show old stats or default.
             } finally {
                 if (mounted) setLoading(false);
             }

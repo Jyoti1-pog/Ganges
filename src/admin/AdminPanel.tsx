@@ -108,57 +108,29 @@ export function AdminPanel({ onBackToHome, onLogout }: AdminPanelProps) {
       setLoading(true);
       setError(null);
 
-      // Fetch users
-      const { data: usersData, error: usersError } = await supabase
-        .from('user_profiles')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-      if (usersError) throw usersError;
-      setUsers(usersData || []);
-
-      // Fetch packages
-      const { data: packagesData, error: packagesError } = await supabase
-        .from('packages')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-      if (packagesError) throw packagesError;
-      setPackages(packagesData || []);
-
-      // Fetch transactions
-      const { data: transactionsData, error: transactionsError } = await supabase
-        .from('transactions')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-      if (transactionsError) throw transactionsError;
-      const typedTransactions = (transactionsData || []) as Transaction[];
-      setTransactions(typedTransactions);
-
-      // Fetch personal shopper requests
-      const { data: requestsData, error: requestsError } = await supabase
-        .from('personal_shopper_requests')
-        .select('*')
-        .order('created_at', { ascending: false });
-
-      if (requestsError) throw requestsError;
-      const typedRequests = (requestsData || []) as PersonalShopperRequest[];
-      setPersonalShopperRequests(typedRequests);
-
-      // Calculate stats
-      const totalRevenue = typedTransactions.reduce((sum, txn) => {
-        return txn.type === 'Credit' ? sum + txn.amount : sum;
-      }, 0) || 0;
-
-      const pendingRequests = typedRequests.filter(r => r.status === 'Pending').length || 0;
+      // Fetch consolidated admin dashboard data
+      const dashboardData = await adminService.getDashboardStats();
+      const usersData = await adminService.getUsers();
+      const shipmentsData = await adminService.getAllShipments();
 
       setStats({
-        totalUsers: usersData?.length || 0,
-        totalPackages: packagesData?.length || 0,
-        totalRevenue,
-        pendingRequests
+        totalUsers: usersData.length,
+        totalPackages: shipmentsData.length,
+        totalRevenue: dashboardData.revenueTrends?.reduce((sum: number, r: any) => sum + r.revenue, 0) || 0,
+        pendingRequests: dashboardData.userGrowth?.newUsers || 0
       });
+
+      setUsers(usersData);
+      setPackages(shipmentsData.map((s: any) => ({
+        id: s.id,
+        tracking_number: s.trackingNumber,
+        weight_kg: s.weight,
+        declared_value: s.value || 0,
+        status: s.status,
+        shipping_method: s.shippingMethod,
+        created_at: s.createdAt,
+        user_id: s.userId
+      })));
 
     } catch (err: any) {
       console.error('Admin panel fetch error:', err);
@@ -169,20 +141,25 @@ export function AdminPanel({ onBackToHome, onLogout }: AdminPanelProps) {
     }
   };
 
-  const updatePackageStatus = async (packageId: string, newStatus: string) => {
+  const updatePackageStatus = async (shipmentId: string, newStatus: string) => {
     try {
-      const { error } = await supabase
-        .from('packages')
-        .update({ status: newStatus })
-        .eq('id', packageId);
-
-      if (error) throw error;
-
-      toast.success('Package status updated!');
-      fetchAllData(); // Refresh data
+      await apiService.shipment.updateStatus(shipmentId, newStatus);
+      toast.success('Shipment status updated!');
+      fetchAllData();
     } catch (err: any) {
-      console.error('Update package error:', err);
-      toast.error('Failed to update package status');
+      console.error('Update shipment error:', err);
+      toast.error('Failed to update status');
+    }
+  };
+
+  const updateUserStatus = async (userId: string, isActive: boolean) => {
+    try {
+      await adminService.updateUserStatus(userId, isActive);
+      toast.success(`User ${isActive ? 'activated' : 'deactivated'} successfully`);
+      fetchAllData();
+    } catch (err: any) {
+      console.error('Update user status error:', err);
+      toast.error('Failed to update user status');
     }
   };
 

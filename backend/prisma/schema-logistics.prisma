@@ -1,0 +1,201 @@
+// Ganges Logistics Platform - Production Schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// ENUMS
+// ============================================
+
+enum UserRole {
+  ADMIN
+  MANAGER
+  DRIVER
+  CUSTOMER
+}
+
+enum ShipmentStatus {
+  PENDING
+  ASSIGNED
+  IN_TRANSIT
+  DELIVERED
+  CANCELLED
+}
+
+// ============================================
+// USER & AUTHENTICATION
+// ============================================
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String   // bcrypt hashed
+  role      UserRole @default(CUSTOMER)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deletedAt DateTime? // Soft delete
+  
+  // Relations
+  profile       Profile?
+  refreshTokens RefreshToken[]
+  shipments     Shipment[]
+  driverProfile DriverProfile?
+  activityLogs  ActivityLog[]
+  
+  @@index([email])
+  @@index([role])
+}
+
+model Profile {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  firstName String
+  lastName  String
+  phone     String?
+  avatarUrl String?
+  address   String?
+  city      String?
+  state     String?
+  zipCode   String?
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  revoked   Boolean  @default(false)
+  createdAt DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([token])
+}
+
+// ============================================
+// SHIPMENT SYSTEM
+// ============================================
+
+model Shipment {
+  id              String         @id @default(uuid())
+  trackingNumber  String         @unique
+  customerId      String
+  driverId        String?
+  
+  // Pickup & Delivery
+  pickupAddress   String
+  pickupLat       Float?
+  pickupLng       Float?
+  deliveryAddress String
+  deliveryLat     Float?
+  deliveryLng     Float?
+  
+  // Package Details
+  weight          Float
+  dimensions      String?
+  description     String?
+  
+  // Pricing
+  baseCost        Float
+  distanceCost    Float
+  totalCost       Float
+  
+  // Status & Timing
+  status          ShipmentStatus @default(PENDING)
+  estimatedDelivery DateTime?
+  actualDelivery  DateTime?
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relations
+  customer        User @relation(fields: [customerId], references: [id])
+  driver          DriverProfile? @relation(fields: [driverId], references: [id])
+  statusHistory   ShipmentStatusHistory[]
+  
+  @@index([customerId])
+  @@index([driverId])
+  @@index([status])
+  @@index([createdAt])
+  @@index([trackingNumber])
+}
+
+model ShipmentStatusHistory {
+  id          String   @id @default(uuid())
+  shipmentId  String
+  status      ShipmentStatus
+  notes       String?
+  location    String?
+  createdAt   DateTime @default(now())
+  createdBy   String?
+  
+  shipment    Shipment @relation(fields: [shipmentId], references: [id], onDelete: Cascade)
+  
+  @@index([shipmentId])
+  @@index([createdAt])
+}
+
+// ============================================
+// DRIVER SYSTEM
+// ============================================
+
+model DriverProfile {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  licenseNumber   String   @unique
+  vehicleType     String
+  vehiclePlate    String
+  
+  // Availability & Location
+  isAvailable     Boolean  @default(true)
+  currentLat      Float?
+  currentLng      Float?
+  
+  // Performance Metrics
+  totalDeliveries Int      @default(0)
+  onTimeDeliveries Int     @default(0)
+  totalEarnings   Float    @default(0)
+  rating          Float    @default(5.0)
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relations
+  user            User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  shipments       Shipment[]
+  
+  @@index([userId])
+  @@index([isAvailable])
+}
+
+// ============================================
+// AUDIT & LOGGING
+// ============================================
+
+model ActivityLog {
+  id          String   @id @default(uuid())
+  userId      String
+  action      String
+  entity      String?
+  entityId    String?
+  metadata    Json?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+  
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+  @@index([createdAt])
+  @@index([entity, entityId])
+}

@@ -97,23 +97,7 @@ export function AuthModal({ isOpen, onClose, onSuccess, defaultMode = 'signin' }
       // No manual context update - allow listener to pick it up
       // await refreshSession(); // Not needed if listener is working
 
-      // Wait for context to update (handled by listener) but force navigation
-      onSuccess?.();
-      onClose();
-
-      // ROBUST PRODUCTION REDIRECT:
-      // Force navigation to dashboard, handling both local and production environments correctly.
-      // Using window.location.assign ensures a clean state if needed, but we try standard navigation first if available.
-      // Since we are inside a React component, we should probably just use window.location to be 100% safe against router issues.
-      setTimeout(() => {
-        if (window.location.pathname !== '/dashboard') {
-          window.location.assign(window.location.origin + '/dashboard');
-        }
-      }, 100);
-      // For now, we'll optimistically close
-      onSuccess?.();
-      onClose();
-
+      setLoading(false);
       onSuccess?.();
       onClose();
     } catch (error: any) {
@@ -211,8 +195,10 @@ export function AuthModal({ isOpen, onClose, onSuccess, defaultMode = 'signin' }
     console.log('🔐 Starting signup...');
 
     try {
+      const nameParts = formData.name.split(' ');
       await authService.register({
-        name: formData.name,
+        firstName: nameParts[0],
+        lastName: nameParts.slice(1).join(' ') || '.',
         email: formData.email,
         phone: formData.phone,
         password: formData.password,
